@@ -7,7 +7,8 @@ int main() {
 
     Sales_item book;
     Sales_item total;
-
+    
+    std::cin >> total;
     while(std::cin >> book) {
         if(total == book) {
             total+=book; 
