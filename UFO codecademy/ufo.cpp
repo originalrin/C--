@@ -1,8 +1,6 @@
 #include <iostream>
 #include "ufo_functions.hpp"
-
 //rin was here :P
-
 int main()
 {
 
@@ -22,7 +20,7 @@ int main()
   
   
   
-  while (answer != codeword.length() && misses < 7){
+  while (answer != codeword && misses < 7){
     display_misses(misses);
     display_status(incorrect, answer);
     std::cout << "Please enter your guess:" << std::endl;
